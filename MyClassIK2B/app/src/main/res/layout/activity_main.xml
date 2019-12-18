@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#B0E0E6"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton1"
+            android:src="@drawable/ic_archive"/>
+
+        <Button
+            android:id="@+id/lihatbtn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton1"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Lihat Data"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton2"
+            android:src="@drawable/ic_archive"/>
+
+        <Button
+            android:id="@+id/inputbtn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton2"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Input Data"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stylebutton3"
+            android:src="@drawable/ic_archive"/>
+
+        <Button
+            android:id="@+id/infobtn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@drawable/stylebutton3"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Informasi"/>
+    </LinearLayout>
+
+</LinearLayout>
